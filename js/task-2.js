@@ -14,7 +14,6 @@ function calcAverageCalories(days)
 
     if (days.length > 0) {
         for (const oneDay of days) {
-            console.log(oneDay);
             sumCal += oneDay.calories;
         }
         return averageCal = sumCal / days.length;
